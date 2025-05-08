@@ -1,23 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
+
+    font-family: "Gilroy";
+    letter-spacing: 0.8px;
     background-color: #f4f4f9;
+    margin: 0;
+    padding: 100px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
   }
   
-  .card img{
-    height: 150px;
-    width: 250px;
+  .image{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .image img{
+    height: 175px;
+    object-fit: cover;
     border-radius: 10px;
   }
   .card {
-    width: 50%;
+    width: 500px;
     padding: 20px 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    overflow: hidden
+    overflow: hidden;
+  }
+
+  .card-content h2{
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
   }
